@@ -1,0 +1,32 @@
+// File for font and typography
+
+/* Font family from google */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+// Variables for font
+
+:root {
+  // Set font size to 10px for facilitate calculations
+  font-size: 62.5%;
+}
+
+$body-font: "Poppins", sans-serif;
+
+// Text color
+$text-color: hsl($hue-color, 8%, 45%);
+
+// Text color light version
+$text-color-light: hsl($hue-color, 8%, 65%);
+
+// Text input color
+$input-color: hsl($hue-color, 70%, 96%);
+
+$big-font-size: 2rem;
+$normal-font-size: 1.6rem;
+$small-font-size: 1.2rem;
+$smaller-font-size: 1rem;
+
+$font-small: 400;
+$font-medium: 500;
+$font-semi-bold: 600;

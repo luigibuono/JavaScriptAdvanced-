@@ -1,0 +1,300 @@
+// Variables
+@import "var";
+@import "font";
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 1rem;
+  background-color: $scroll-bar-color;
+  border: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $scroll-thumb-color;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $text-color-light;
+}
+
+/* BASE */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $body-font;
+  font-size: $normal-font-size;
+  background-color: $body-color;
+  color: $text-color;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  color: $first-color;
+  font-size: 1.8rem;
+}
+
+// Reusable classes
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    background-color: $first-color-lighter;
+  }
+}
+
+// HEADER
+
+.title {
+  font-size: 4rem;
+  color: $first-color;
+  text-shadow: 2px 2px $first-color-lighter;
+  margin: 3.5rem 0 2rem;
+  text-align: center;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+  .input__search {
+    width: 200px;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: 2px solid $text-color;
+    border-radius: 0.5rem;
+    color: $text-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: $first-color;
+    }
+  }
+
+  .btn__search {
+    width: 3rem;
+    height: 3rem;
+    color: $text-color;
+    font-size: 1.6rem;
+    border: 2px solid $text-color;
+    border-radius: 0.5rem;
+    
+
+    &:hover,
+    &:focus {
+      color: $first-color-alt;
+    }
+  }
+
+  .error__message {
+    margin: 1.5rem 0 2rem;
+    color: red;
+    text-align: center;
+  }
+}
+
+// Removing default style for input type search
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+// RIGHT CONTAINER
+
+.city__name {
+  text-align: center;
+  margin: 3rem 0 1.5rem;
+  font-size: 3.5rem;
+  color: $first-color-lighter;
+  text-shadow: 2px 2px $first-color;
+}
+
+.container__summary {
+  margin: 0 2rem 2rem;
+  display: flex;
+  p {
+    max-width: 500px;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+}
+
+// SCORES
+
+.container__scores {
+  margin: 0 2rem;
+
+  .score {
+    margin: 0 auto 2rem;
+    border: 1px solid $first-color-lighter;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    .header__score {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .name__score {
+        letter-spacing: 0.1rem;
+      }
+
+      .value__score {
+        font-size: 2rem;
+      }
+    }
+
+    .score__bar {
+      height: 2rem;
+      border: 1px solid $first-color-lighter;
+      border-radius: 0.5rem;
+      margin: 1.5rem 0 0.5rem;
+
+      .color__score__bar {
+        height: 100%;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+
+  .ending__score {
+    margin: 4rem auto 10rem;
+    max-width: 500px;
+    text-align: center;
+
+    .teleport__vote {
+      font-weight: $font-semi-bold;
+      font-size: 3.5rem;
+      color: $first-color-lighter;
+      text-shadow: 3px 2px 1px $first-color;
+      margin: 1rem 0;
+    }
+    .vote {
+      color: white;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      background-color: $first-color-lighter;
+      border-radius: 50%;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5rem auto 2rem;
+      font-weight: $font-semi-bold;
+      text-shadow: 2px 2px $first-color-alt;
+    }
+
+    .teleport__btn {
+      border: 2px solid $text-color;
+      font-size: 16px;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      color: $text-color;
+      font-weight: $font-semi-bold;
+      text-decoration-color: $normal-font-size;
+
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+}
+
+// LEFT CONTAINER
+.img__city {
+  width: 100%;
+  max-width: 1000px;
+  z-index: -1;
+  padding: 0 2rem;
+}
+
+.container__info {
+  margin: 1rem auto;
+  max-width: 500px;
+  .text__info {
+    margin: 0 2rem 1rem;
+    text-align: center;
+
+    a {
+      font-size: 18px;
+      font-weight: $font-semi-bold;
+      color: $first-color;
+
+      &:hover {
+        cursor: pointer;
+        color: $first-color-alt;
+      }
+    }
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 2rem 1rem;
+      color: $first-color;
+      &:hover {
+        cursor: pointer;
+        color: $first-color-alt;
+      }
+      i {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+// Media queries
+@import "./mediaqueries/smalldevice";
+@import "./mediaqueries/mediumdevice";
+@import "./mediaqueries/bigdevice";

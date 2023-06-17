@@ -1,0 +1,37 @@
+// File for variables declaration
+
+// Choose your favorite color
+$hue-color: 250;
+
+// Principal color
+$first-color: hsl($hue-color, 69%, 61%);
+
+// Principal color clicked
+$first-color-alt: hsl($hue-color, 57%, 53%);
+
+// Principal color light version
+$first-color-lighter: hsl($hue-color, 92%, 85%);
+
+// Principal color dark version
+$first-color-strong: hsl($hue-color, 92%, 75%);
+
+// Principal color in titles
+$title-color: hsl($hue-color, 8%, 15%);
+
+// Color body page
+$body-color: hsl($hue-color, 60%, 99%);
+
+// Color body page ligher
+$body-color-lighter: hsl($hue-color, 16%, 94%);
+
+// Container color
+$container-color: hsl($hue-color, 63%, 97.5%);
+
+// Scroll bar var
+$scroll-bar-color: hsl($hue-color, 12%, 90%);
+$scroll-thumb-color: hsl($hue-color, 12%, 80%);
+
+// z index
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;

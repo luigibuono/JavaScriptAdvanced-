@@ -1,0 +1,75 @@
+/*grandi dispositivi*/
+@media (min-width: 1200px) {
+  body {
+    position: relative;
+    display: grid;
+    height: 100vh;
+    grid-template: auto / repeat(2, 1fr);
+    grid-template-areas:
+      "left right"
+      ". right";
+  }
+
+  header {
+    grid-area: left;
+    position: sticky;
+    top: 0px;
+  }
+  .left__container {
+    margin-top: 30rem;
+    grid-area: left;
+    position: sticky;
+    top: 300px;
+  }
+  .right__container {
+    grid-area: right;
+    background-color: white;
+    overflow: scroll;
+
+  }::-webkit-scrollbar {
+    display: none;
+  }
+
+  .city__name {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .ending__score {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    width: 1500px;
+  }
+}
+/*Piccoli dispositivi*/
+
+@media (max-width: 350px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .input__container {
+    display: flex;
+    margin: 0 1rem;
+
+    }
+  }
+
+  .city__name {
+    font-size: 32px;
+  }
+
+  .name__score {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+
