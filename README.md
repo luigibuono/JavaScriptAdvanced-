@@ -74,16 +74,19 @@ Una volta ricevuti i dati dal servizio esterno l’applicazione dovrà visualizz
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Questa sezione dovrebbe elencare tutti i framework principali che hai utilizzato per creare il tuo progetto. Lascia eventuali componenti aggiuntivi/plugin per la sezione dei ringraziamenti. Ecco alcuni esempi.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Questo è un esempio di come puoi dare istruzioni su come impostare il tuo progetto localmente.
+Per ottenere una copia locale attiva e funzionante, segui questi semplici passaggi di esempio.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Questo è un esempio di come elencare le cose necessarie per utilizzare il software e come installarle.
+
+Io personalmente utilizzo GitHub desktop.
+Link per scaricarlo: https://desktop.github.com/
 
 * npm
 
@@ -91,33 +94,32 @@ This is an example of how to list things you need to use the software and how to
 npm install npm@latest -g
 ```
 
+
 ### Installation
+1. Aprire gitHub Desktop e fare la registrazione con il proprio account gitHub.
 
-1. Get a free API Key at [https://example.com](https://example.com)
+2. Andare su clone repository e selezionare URL
 
-2. Clone the repo
 
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
+2.Inserire l'url https://github.com/your_username_/Project-Name.git
+
 
 3. Install NPM packages
 
-```sh
+
 npm install
-```
 
-4. Enter your API in `config.js`
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+npm install webpack webpack-cli dotenv-webpack
+npm install axios
+npm i lodash
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Usa questo spazio per mostrare esempi utili di come un progetto può essere utilizzato. Ulteriori schermate, esempi di codice e demo funzionano bene in questo spazio. Puoi anche collegarti a più risorse.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Template README.md generato grazie a https://readme.shaankhan.dev/
+
 
 ## Roadmap
 
