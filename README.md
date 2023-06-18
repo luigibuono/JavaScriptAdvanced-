@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
  
-![logo](https://github.com/luigibuono/JavaScriptAdvanced-/assets/128727133/90e8fba3-2acd-4809-990b-41ec3a8357ea)
+<p align="center">![logo](https://github.com/luigibuono/JavaScriptAdvanced-/assets/128727133/90e8fba3-2acd-4809-990b-41ec3a8357ea) </p>
 
 
 
