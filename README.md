@@ -44,17 +44,33 @@
 
 <img src="images/Screenshot 2023-06-18 112058.png">
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+L’applicazione dovrà essere composta da un semplice textbox (Google style) per permettere all’utente di inserire il nome di una specifica città.
 
-Here's why:
+Una volta che l’utente cliccherà su un apposito button, l’applicazione dovrà contattare le API del servizio esterno Teleport per ottenere la informazioni da visualizzare in pagina, dove los-angeles è la città inserita dall’utente.
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Una volta ricevuti i dati dal servizio esterno l’applicazione dovrà visualizzare in pagina le informazioni riguardanti le categorie, la descrizione e il city score della città:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+"categories": [
+{
+"color": "#f3c32c",
+"name": "Housing",
+"score_out_of_10": 1.5274999999999999
+},
+{
+"color": "#f3d630",
+"name": "Cost of Living",
+"score_out_of_10": 4.556000000000001
+},
+{
+"color": "#f4eb33",
+"name": "Startups",
+"score_out_of_10": 10
+},
+....
+"summary": "<p>\n    Los Angeles is a sprawling city of 500 square miles and the heart of a metropolitan area with 18 million residents. It is a fabled California region, home to Hollywood and America's <b>entertainment industry</b> with <b>year-round sunshine</b>, world-famous beaches, and an intense <b>car culture</b>. The \"City of Angels\" is a magnet to people from around the world and a uniquely exciting environment.\n</p>\n\n\n    <p>Los Angeles is one of the top ten city matches for 11.5% of Teleport users.</p>\n",
+"teleport_city_score": 63.426351351351364
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
 
 ## Built With
 
