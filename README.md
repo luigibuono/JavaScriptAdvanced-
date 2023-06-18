@@ -72,6 +72,13 @@ Una volta ricevuti i dati dal servizio esterno l’applicazione dovrà visualizz
 
 
 
+
+
+
+
+
+
+
 ## Built With
 
 Questa sezione dovrebbe elencare tutti i framework principali che hai utilizzato per creare il tuo progetto. Lascia eventuali componenti aggiuntivi/plugin per la sezione dei ringraziamenti. Ecco alcuni esempi.
@@ -113,6 +120,8 @@ npm install
 npm install webpack webpack-cli dotenv-webpack
 npm install axios
 npm i lodash
+npm install --save-dev mini-css-extract-plugin
+npm install --save-dev @babel/core
 
 ## Usage
 
