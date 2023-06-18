@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/ShaanCoding/ReadME-Generator">
+ 
     <img src="https://github.com/luigibuono/JavaScriptAdvanced-/issues/1#issue-1762193297" alt="Logo" width="80" height="80">
   </a>
 
