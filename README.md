@@ -125,13 +125,15 @@ npm install axios
 npm i lodash
 npm install --save-dev mini-css-extract-plugin
 npm install --save-dev @babel/core
+npm i postcss
+npm i css-loader
+npm i sass-loader
 
 ## Usage
 
 Usa questo spazio per mostrare esempi utili di come un progetto può essere utilizzato. Ulteriori schermate, esempi di codice e demo funzionano bene in questo spazio. Puoi anche collegarti a più risorse.
 
 Template README.md generato grazie a https://readme.shaankhan.dev/
-
 
 ## Roadmap
 
@@ -158,7 +160,7 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See [LICENSE](https://github.com/ShaanCoding/ReadME-Generator/blob/main/LICENSE.md) for more information.
 
 ## Authors
-
+Used by : Luigi Buono - start2impact student
 * **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
 
 ## Acknowledgements
