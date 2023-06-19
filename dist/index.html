@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="main.css">
+    <!-- FONT AWERSOME -->
+    <link rel="stylesheet "href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+   
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.quality.jpg">
+    <title>Life Quality</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">Quality of life in different cities</h1>
+    <div class="input__container"></div>
+    <div>
+      <input 
+      type="search" 
+      id="input-search"
+      class="input__search"
+      placeholder="Search a city">
+      <button type="submit" id="btn-search" class="btn__search btn">
+          <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div id="error-message" class="error__message"></div>
+</div>
+  </header>
+  <!-- RIGHT CONTAINER -->
+  <section class="right__container">
+    <h1 id="city-name" class="city__name"></h1>
+
+    <div class="container__summary">
+        <p id="summary-text"></p>
+    </div>
+
+    <div class="container__scores" id="container-scores">
+
+    </div>
+
+</section>
+<!-- LEFT CONTAINER -->
+<section class="left__container">
+
+  <img src="./images/immaginequality.jpg" alt="Life Quality img" class="img__city">
+
+  <div class="container__info">
+
+      <div class="text__info">
+          Questo è il mio terzo progetto per Start2Impact su Javascript Advanced<br>
+     In questo progetto si trovano tutte le informazioni che interessano la qualità della vita delle persone nelle varie città del mondo.
+      </div>
+
+      <div class="socials">
+          <a href="https://github.com/luigibuono" target="_blank" alt="Github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/luigi-buono-334b73258/" target="_blank" alt="Linkedin"><i class="fab fa-linkedin"></i></a>
+          <a href="https://talent.start2impact.it/profile/luigi-buono" target="_blank" alt="Start2Impact"><i class="fas fa-user-circle"></i></a>
+      </div>
+
+  </div>
+</section>
+
+<!-- JS -->
+<script src="./main.js"></script>
+
+</body>
+</html>
+</body>
